@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.detailCard {
+  height: 522px;
+  width: 940px;
+}
+
+.profileContainer {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 50px;
+  left: 20px;
+  width: 100%;
+}
+
+.profileTitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 10px;
+  margin-top: 17px;
+}
+
+.headerContainer {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 20px;
+  left: 20.2px;
+  width: 100%;
+}
+
+.headerTitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+}
+
+.favIcon {
+  margin-left: 75%;
+}

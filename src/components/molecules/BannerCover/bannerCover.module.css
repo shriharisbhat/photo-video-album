@@ -1,0 +1,6 @@
+.bannerContainer {
+  display: flex;
+  object-fit: contain;
+  width: 100vw;
+  height: 60vh;
+}

@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: whitesmoke;
+  cursor: pointer;
+  height: 165px;
+  width: 220px;
+}
+
+.favIcon {
+  position: absolute;
+  cursor: pointer;
+  top: 6px;
+  right: 6px;
+}
+
+.playIcon {
+  position: absolute;
+  cursor: pointer;
+  top: 59px;
+  right: 41%;
+}
+.playIcon:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+.profileContainer {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 115px;
+  left: 10px;
+  width: 90%;
+}
+
+.profileTitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 10px;
+}

@@ -1,0 +1,29 @@
+{
+  "page": 1,
+  "per_page": 1,
+  "photos": [
+    {
+      "id": 2430365,
+      "width": 3456,
+      "height": 5184,
+      "url": "https://www.pexels.com/photo/nature-love-flowers-summer-2430365/",
+      "photographer": "NastyaSensei",
+      "photographer_url": "https://www.pexels.com/@nastyasensei-66707",
+      "photographer_id": 66707,
+      "avg_color": "#888888",
+      "src": {
+        "original": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg",
+        "large2x": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=650\u0026w=940",
+        "large": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=650\u0026w=940",
+        "medium": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=350",
+        "small": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026h=130",
+        "portrait": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=1200\u0026w=800",
+        "landscape": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026fit=crop\u0026h=627\u0026w=1200",
+        "tiny": "https://images.pexels.com/photos/2430365/pexels-photo-2430365.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=1\u0026fit=crop\u0026h=200\u0026w=280"
+      },
+      "liked": false
+    }
+  ],
+  "total_results": 8000,
+  "next_page": "https://api.pexels.com/v1/curated/?page=2\u0026per_page=1"
+}

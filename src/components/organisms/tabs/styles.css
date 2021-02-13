@@ -1,0 +1,43 @@
+.main-content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.tabs .nav-link.active {
+  border: none;
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #e81244;
+  font-weight: 800;
+}
+.tabs a.nav-link.active::after {
+  content: "";
+  border-bottom: 3px solid #e81244;
+  display: block;
+  position: relative;
+  top: 6px;
+}
+.tabs .nav-link:hover {
+  border-color: transparent transparent transparent;
+}
+.tabs a {
+  border: none;
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  color: #230735;
+}
+.tabs a:last-child {
+  margin-left: auto;
+}
+
+.card-contaier {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 32px auto 0;
+  padding-left: 40px;
+}

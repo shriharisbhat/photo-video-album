@@ -1,0 +1,21 @@
+.logoContainer {
+  width: 172px;
+  height: 44px;
+  position: absolute;
+  top: 30px;
+  left: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logoContainer {
+    top: 35px;
+    left: 125px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .logoContainer {
+    top: 40px;
+    left: 20px;
+  }
+}
