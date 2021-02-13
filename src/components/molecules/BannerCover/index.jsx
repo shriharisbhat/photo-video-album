@@ -23,7 +23,7 @@ const BannerCover = (props) => {
       .then((result) => setBannerObject(result));
   }, [bannerObject]);
   useEffect(() => {
-    fetch("./banner.json", {
+    fetch(get_banner_url, {
       headers: {
         Authorization:
           "563492ad6f91700001000001436d485d8bc24b7dab77fc4658985840",

@@ -1,0 +1,15 @@
+.searchWrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 220px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 425px) {
+  .searchWrapper {
+    margin-top: 70px;
+  }
+}

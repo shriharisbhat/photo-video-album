@@ -9,23 +9,47 @@ import {
 
 import styles from "./card.module.css";
 
-export const Card = ({ imageSrc, title, playIcon = false }) => {
+export const Card = ({
+  imageSrc,
+  title,
+  playIcon = false,
+  videoFiles,
+  videoPictures,
+}) => {
   const [state, setstate] = useState(false);
   let history = useHistory();
 
-  const redirectTo = () => {
+  const redirectToPhotoDetail = () => {
     history.push({
       pathname: "/detail",
-      state: { src: imageSrc, photoTitle: title, isFavorite: false },
+      state: {
+        src: imageSrc,
+        photoTitle: title,
+        isFavorite: false,
+        media: "gallery",
+      },
     });
   };
+
+  const redirectToVideoPlayer = () => {
+    history.push({
+      pathname: "/detail",
+      state: {
+        videoFiles: videoFiles,
+        videoPictures: videoPictures,
+        isFavorite: false,
+        media: "video",
+      },
+    });
+  };
+
   return (
     <div className={styles.container}>
       <img
         alt="IMG"
         className={styles.card}
         src={imageSrc}
-        onClick={!playIcon && redirectTo}
+        onClick={!playIcon && redirectToPhotoDetail}
       />
 
       <img
@@ -37,7 +61,7 @@ export const Card = ({ imageSrc, title, playIcon = false }) => {
       {playIcon && (
         <img
           alt="PLAY_ICON"
-          onClick={redirectTo}
+          onClick={redirectToVideoPlayer}
           className={styles.playIcon}
           src={Play_Icon}
         />

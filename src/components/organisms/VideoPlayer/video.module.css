@@ -1,0 +1,15 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.videoContainer{
+    width: 940px;
+    height: 522px;
+}
+
+@media only screen and (max-width: 425px) {
+    .videoContainer{
+        height: 360px;
+    }
+}

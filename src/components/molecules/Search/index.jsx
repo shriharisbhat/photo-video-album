@@ -17,18 +17,16 @@ const Search = (props) => {
   };
 
   return (
-    <div className={styles.searchWrapper}>
-      <div className={styles.searchContainer}>
-        <input
-          type="text"
-          placeholder="Search photos,videos,artists"
-          className={styles.inputBox}
-          onChange={onTextChange}
-        />
-        <button type="button" className={styles.button} onClick={onSearch}>
-          SEARCH
-        </button>
-      </div>
+    <div className={styles.searchContainer}>
+      <input
+        type="text"
+        placeholder="Search photos,videos,artists"
+        className={styles.inputBox}
+        onChange={onTextChange}
+      />
+      <button type="button" className={styles.button} onClick={onSearch}>
+        SEARCH
+      </button>
     </div>
   );
 };

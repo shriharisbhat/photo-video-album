@@ -1,0 +1,20 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100px;
+  background-color: antiquewhite;
+}
+
+.searcBar {
+  position: absolute;
+  left: 55%;
+  margin-top: 16px;
+  width: 380px;
+}
+
+@media only screen and (max-width: 425px) {
+  .searcBar {
+    display: none;
+  }
+}

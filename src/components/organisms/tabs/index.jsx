@@ -43,6 +43,8 @@ const TabsView = (props) => {
                     imageSrc={data.image}
                     playIcon
                     title={data.user?.name}
+                    videoFiles={data.video_files}
+                    videoPictures={data.video_pictures}
                   />
                 );
               })}
